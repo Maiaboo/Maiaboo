@@ -1,0 +1,19 @@
+<!DOCUTYPE html>
+<head> 
+  <title>Maia Young</title>
+  <style>
+    body {
+    text-align: center;
+      Color: white;
+      
+      background-image:url("https://imgur.com/OVb8pXD.jpg");
+      background-size: cover;
+      background-position: center;
+      font-Family: serif;
+      font-size: px
+      font-style: Bold; 
+  }
+  p {
+    font-size: 27px;
+}
+input {
