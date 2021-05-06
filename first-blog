@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<head>
+<link href="/normalize.css" rel="stylesheet">
+<style>
+header {
+    text-align: center;
+      color: black;
+      background-color:#DEC3AE;
+      background-size: center;
+      background-position: center;
+      font-size:22px;
+  }
+  a {
+    color:black;
+  }
+  h1 {
+    font-size: 70px;
+    text-align: center;
+    color: #E8A6ED;
+    font-family: georgia;
+    margin: 0px 0px 10px 0px;
+   -webkit-text-stroke: 2px white;
+  }
+  li {
+    display: inline;
+    padding:10px 10px 10px 10px ; 
+  }
+  ul {
+    padding: 10px;
+  }
+  article {
+    max-width:500px;
+    padding: 20px;
+    margin: 0 auto;
+  }
+  @media(max-width:500px){
+    body {
+      background: red; }
+  h1 {
+    font-size: 36px;
+  }
+  li {
+    display: block;
+    padding: 5px;
+  }
+  }
+  .center {
+  display: block;
+  margin: 20 auto;
+  width: 50%;
+}
+    img {
+    border: 5px solid #000;
+    border-radius: 10px;}
+</style>
+</head>
+<body>
+<header>
+<h1>Maia's Blog</h1>
+<img src="https://dspncdn.com/a1/media/692x/34/96/25/349625da947d30a3d24d33a8e5ab0958.jpg"
+  width="auto"
+  height="auto"
+  class="center">
+<ul>
+<li><a href="#">Travel</a></li>
+<li><a href="#">Fashion</a></li>
+<li><a href="#">Tech</a></li>
+<li><a href="#">Lifestyle</a></li>
+</ul>
+</header>
+<article>
+<h2>The Maldives looks fun...</h2>
+<p>But its NOT! Biggest mosquitoes everywhere yet no land! What gives?</p>
+<button>Like</button>
+</article>
+<article>
+<h3>It's pronounced Joc'moose not Jack-a-moose.</h3>
+<p>honestly have you never even heard frnech before? It's hard bro...go easy on me.</p>
+  </h3>
+  <button>Like</button>
+  </article>
+<article>
+<h4>This is my fourth heading, I cant come up with anything tech related...or did I?</h4>
+<p>No seriously its late and im all out of RAM...ok I know, i'll see myself out. P.S. my links work :-)</p>
+<button>Like</button>
+</article>
+<script>alert("Javascript works!")
+$("button").on("click", function() { alert("clicked!")
+});
+</script>
+</body>
